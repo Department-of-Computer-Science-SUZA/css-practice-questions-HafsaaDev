@@ -1,0 +1,27 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+font-size: 14px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #334;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+.active{
+  background-color: #4CAF50;
+}
+li{
+  float:right;
+}
+li a:hover:not(.active){
+background-color: blue;
+}
